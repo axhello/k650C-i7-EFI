@@ -1,0 +1,138 @@
+4:610  0:154  Found BIOS RSDP at F0000
+4:610  0:000  Printing ACPI tables from RSDP F0000 ...
+4:610  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+4:610  0:000    (Xsdt: CB958090, Rsdt: CB958028)
+4:610  0:000    CB958090: 'XSDT', 'A M I', Rev: 1, Len: 164
+4:610  0:000    CB958028: 'RSDT', 'A M I', Rev: 1, Len: 100
+4:610  0:000    Tables in Xsdt: 16
+4:610  0:000    0. CB9651E0: 'FACP', 'A M I', Rev: 5, Len: 268
+4:610  0:000        (Dsdt: CB9581D0, Facs: CB9B7080, XDsdt: CB9581D0, XFacs: 0)
+4:610  0:000        CB9581D0: 'DSDT', 'A M I', Rev: 2, Len: 53261
+4:611  0:000        CB9B7080: 'FACS', Ver: 2, Len: 64
+4:611  0:000    1. CB9652F0: 'APIC', 'A M I', Rev: 3, Len: 146
+4:611  0:000    2. CB965388: 'FPDT', 'A M I', Rev: 1, Len: 68
+4:611  0:000    3. CB9653D0: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:611  0:000    4. CB965478: 'SSDT', 'PtidDevc', Rev: 1, Len: 5676
+4:611  0:000    5. CB966AA8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+4:611  0:000    6. CB966FE8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:611  0:000    7. CB967AC0: 'MCFG', 'A M I', Rev: 1, Len: 60
+4:611  0:000    8. CB967B00: 'HPET', 'A M I', Rev: 1, Len: 56
+4:611  0:000    9. CB967B38: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+4:611  0:000    10. CB967E50: 'SSDT', 'SaSsdt', Rev: 1, Len: 7353
+4:611  0:000    11. CB969B10: 'SSDT', 'SgPeg', Rev: 1, Len: 3777
+4:611  0:000    12. CB96A9D8: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+4:611  0:000    13. CB96AD58: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+4:611  0:000    14. CB96ADC8: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+4:611  0:000    15. CB96B890: 'SSDT', 'OptTabl', Rev: 1, Len: 4357
+4:611  0:000    Tables in Rsdt: 16
+4:611  0:000    0. CB958148: 'FACP', 'A M I', Rev: 2, Len: 132
+4:611  0:000        (Dsdt: CB9581D0, Facs: CB9B7040)
+4:611  0:000        CB9581D0: 'DSDT', 'A M I', Rev: 2, Len: 53261
+4:611  0:000        CB9B7040: 'FACS', Ver: 0, Len: 64
+4:611  0:000    1. CB9652F0: 'APIC', 'A M I', Rev: 3, Len: 146
+4:611  0:000    2. CB965388: 'FPDT', 'A M I', Rev: 1, Len: 68
+4:611  0:000    3. CB9653D0: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:611  0:000    4. CB965478: 'SSDT', 'PtidDevc', Rev: 1, Len: 5676
+4:611  0:000    5. CB966AA8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+4:611  0:000    6. CB966FE8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:611  0:000    7. CB967AC0: 'MCFG', 'A M I', Rev: 1, Len: 60
+4:611  0:000    8. CB967B00: 'HPET', 'A M I', Rev: 1, Len: 56
+4:611  0:000    9. CB967B38: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+4:611  0:000    10. CB967E50: 'SSDT', 'SaSsdt', Rev: 1, Len: 7353
+4:611  0:000    11. CB969B10: 'SSDT', 'SgPeg', Rev: 1, Len: 3777
+4:611  0:000    12. CB96A9D8: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+4:611  0:000    13. CB96AD58: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+4:611  0:000    14. CB96ADC8: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+4:611  0:000    15. CB96B890: 'SSDT', 'OptTabl', Rev: 1, Len: 4357
+4:611  0:000  Found UEFI Acpi 2.0 RSDP at CB958000
+4:611  0:000  Saving ACPI tables from RSDP CB958000 to EFI\CLOVER\ACPI\origin ...
+4:611  0:000   CB958000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+4:611  0:000    (Xsdt: CB958090, Rsdt: CB958028)
+4:611  0:000    CB958090: 'XSDT', 'A M I', Rev: 1, Len: 164
+4:611  0:000    CB958028: 'RSDT', 'A M I', Rev: 1, Len: 100
+4:611  0:000    Tables in Xsdt: 16
+4:611  0:000    0. CB9651E0: 'FACP', 'A M I', Rev: 5, Len: 268
+4:611  0:000        (Dsdt: CB9581D0, Facs: CB9B7080, XDsdt: CB9581D0, XFacs: 0)
+4:611  0:000        CB9581D0: 'DSDT', 'A M I', Rev: 2, Len: 53261
+4:612  0:000        CB9B7080: 'FACS', Ver: 2, Len: 64
+4:612  0:000    1. CB9652F0: 'APIC', 'A M I', Rev: 3, Len: 146
+4:612  0:000    2. CB965388: 'FPDT', 'A M I', Rev: 1, Len: 68
+4:612  0:000    3. CB9653D0: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:612  0:000    4. CB965478: 'SSDT', 'PtidDevc', Rev: 1, Len: 5676
+4:612  0:000    5. CB966AA8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+4:612  0:000    6. CB966FE8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:612  0:000    7. CB967AC0: 'MCFG', 'A M I', Rev: 1, Len: 60
+4:612  0:000    8. CB967B00: 'HPET', 'A M I', Rev: 1, Len: 56
+4:612  0:000    9. CB967B38: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+4:612  0:000    10. CB967E50: 'SSDT', 'SaSsdt', Rev: 1, Len: 7353
+4:612  0:000    11. CB969B10: 'SSDT', 'SgPeg', Rev: 1, Len: 3777
+4:612  0:000    12. CB96A9D8: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+4:612  0:000    13. CB96AD58: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+4:612  0:000    14. CB96ADC8: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+4:612  0:000    15. CB96B890: 'SSDT', 'OptTabl', Rev: 1, Len: 4357
+4:612  0:000    Tables in Rsdt: 16
+4:612  0:000    0. CB958148: 'FACP', 'A M I', Rev: 2, Len: 132
+4:612  0:000        (Dsdt: CB9581D0, Facs: CB9B7040)
+4:612  0:000        CB9581D0: 'DSDT', 'A M I', Rev: 2, Len: 53261
+4:613  0:000        CB9B7040: 'FACS', Ver: 0, Len: 64
+4:613  0:000    1. CB9652F0: 'APIC', 'A M I', Rev: 3, Len: 146
+4:613  0:000    2. CB965388: 'FPDT', 'A M I', Rev: 1, Len: 68
+4:613  0:000    3. CB9653D0: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:613  0:000    4. CB965478: 'SSDT', 'PtidDevc', Rev: 1, Len: 5676
+4:613  0:000    5. CB966AA8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+4:613  0:000    6. CB966FE8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:613  0:000    7. CB967AC0: 'MCFG', 'A M I', Rev: 1, Len: 60
+4:613  0:000    8. CB967B00: 'HPET', 'A M I', Rev: 1, Len: 56
+4:613  0:000    9. CB967B38: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+4:613  0:000    10. CB967E50: 'SSDT', 'SaSsdt', Rev: 1, Len: 7353
+4:613  0:000    11. CB969B10: 'SSDT', 'SgPeg', Rev: 1, Len: 3777
+4:613  0:000    12. CB96A9D8: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+4:613  0:000    13. CB96AD58: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+4:613  0:000    14. CB96ADC8: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+4:613  0:000    15. CB96B890: 'SSDT', 'OptTabl', Rev: 1, Len: 4357
+4:613  0:000  Found UEFI Acpi 1.0 RSDP at CB958000
+4:613  0:000  Printing ACPI tables from RSDP CB958000 ...
+4:613  0:000   CB958000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+4:613  0:000    (Xsdt: CB958090, Rsdt: CB958028)
+4:613  0:000    CB958090: 'XSDT', 'A M I', Rev: 1, Len: 164
+4:613  0:000    CB958028: 'RSDT', 'A M I', Rev: 1, Len: 100
+4:613  0:000    Tables in Xsdt: 16
+4:613  0:000    0. CB9651E0: 'FACP', 'A M I', Rev: 5, Len: 268
+4:613  0:000        (Dsdt: CB9581D0, Facs: CB9B7080, XDsdt: CB9581D0, XFacs: 0)
+4:613  0:000        CB9581D0: 'DSDT', 'A M I', Rev: 2, Len: 53261
+4:614  0:001        CB9B7080: 'FACS', Ver: 2, Len: 64
+4:614  0:000    1. CB9652F0: 'APIC', 'A M I', Rev: 3, Len: 146
+4:614  0:000    2. CB965388: 'FPDT', 'A M I', Rev: 1, Len: 68
+4:614  0:000    3. CB9653D0: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:614  0:000    4. CB965478: 'SSDT', 'PtidDevc', Rev: 1, Len: 5676
+4:614  0:000    5. CB966AA8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+4:614  0:000    6. CB966FE8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:614  0:000    7. CB967AC0: 'MCFG', 'A M I', Rev: 1, Len: 60
+4:614  0:000    8. CB967B00: 'HPET', 'A M I', Rev: 1, Len: 56
+4:614  0:000    9. CB967B38: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+4:614  0:000    10. CB967E50: 'SSDT', 'SaSsdt', Rev: 1, Len: 7353
+4:614  0:000    11. CB969B10: 'SSDT', 'SgPeg', Rev: 1, Len: 3777
+4:614  0:000    12. CB96A9D8: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+4:614  0:000    13. CB96AD58: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+4:614  0:000    14. CB96ADC8: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+4:614  0:000    15. CB96B890: 'SSDT', 'OptTabl', Rev: 1, Len: 4357
+4:614  0:000    Tables in Rsdt: 16
+4:614  0:000    0. CB958148: 'FACP', 'A M I', Rev: 2, Len: 132
+4:614  0:000        (Dsdt: CB9581D0, Facs: CB9B7040)
+4:614  0:000        CB9581D0: 'DSDT', 'A M I', Rev: 2, Len: 53261
+4:615  0:000        CB9B7040: 'FACS', Ver: 0, Len: 64
+4:615  0:000    1. CB9652F0: 'APIC', 'A M I', Rev: 3, Len: 146
+4:615  0:000    2. CB965388: 'FPDT', 'A M I', Rev: 1, Len: 68
+4:615  0:000    3. CB9653D0: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:615  0:000    4. CB965478: 'SSDT', 'PtidDevc', Rev: 1, Len: 5676
+4:615  0:000    5. CB966AA8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+4:615  0:000    6. CB966FE8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:615  0:000    7. CB967AC0: 'MCFG', 'A M I', Rev: 1, Len: 60
+4:615  0:000    8. CB967B00: 'HPET', 'A M I', Rev: 1, Len: 56
+4:615  0:000    9. CB967B38: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+4:615  0:000    10. CB967E50: 'SSDT', 'SaSsdt', Rev: 1, Len: 7353
+4:615  0:000    11. CB969B10: 'SSDT', 'SgPeg', Rev: 1, Len: 3777
+4:615  0:000    12. CB96A9D8: 'SSDT', 'CppcTabl', Rev: 1, Len: 889
+4:615  0:000    13. CB96AD58: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+4:615  0:000    14. CB96ADC8: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+4:615  0:000    15. CB96B890: 'SSDT', 'OptTabl', Rev: 1, Len: 4357
